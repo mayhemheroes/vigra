@@ -1,0 +1,5 @@
+project: vigra
+target: fuzz-vigra-impex
+cmds:
+  - cmd: /mayhem/fuzz_vigra_impex
+    libfuzzer: true

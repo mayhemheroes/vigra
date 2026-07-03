@@ -1,0 +1,5 @@
+project: vigra
+target: example-invert
+cmds:
+  - cmd: /mayhem/example_invert @@ /dev/shm/out_invert.bmp
+    filepath: /dev/shm/in.bmp

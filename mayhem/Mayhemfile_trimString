@@ -1,0 +1,5 @@
+project: vigra
+target: trimstring
+cmds:
+  - cmd: /mayhem/fuzz_trimString
+    libfuzzer: true
